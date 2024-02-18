@@ -1,0 +1,45 @@
+@media screen and (max-width: 800px) {
+  .navbar li, .navbar li a {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+
+  .navbar, .Home-bottom {
+      position: static;
+  }
+
+  .Home-top h1, .Home-top p, .Home-top h2 {
+      text-align: center;
+      padding: 0 5%;
+  }
+
+  .mobilenav .topnav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: white;
+  }
+
+  .mobilenav #myLinks {
+      display: none;
+      width: 100%;
+  }
+
+  .mobilenav a.icon {
+      display: block;
+  }
+
+  #myLinks a {
+      display: block;
+      padding: 14px 16px;
+      text-align: center;
+      color: white;
+      background-color: #555;
+  }
+
+  #myLinks a:hover {
+      background-color: #777;
+  }
+}
